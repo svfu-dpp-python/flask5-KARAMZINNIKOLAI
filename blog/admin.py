@@ -8,3 +8,4 @@ session = models.db.session
 admin = Admin()
 admin.add_view(ModelView(models.User, session))
 admin.add_view(ModelView(models.Post, session))
+admin.add_view(ModelView(models.Comment, session))
